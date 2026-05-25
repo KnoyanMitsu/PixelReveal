@@ -1,5 +1,5 @@
 [project]
-name = "flet"
+name = "pixelreveal"
 version = "0.1.0"
 description = ""
 readme = "README.md"
@@ -9,6 +9,8 @@ authors = [
 ]
 dependencies = [
     "flet>=0.85.1",
+    "opencv-python>=4.10.0.84",
+    "numpy>=2.2.2",
 ]
 
 [dependency-groups]
