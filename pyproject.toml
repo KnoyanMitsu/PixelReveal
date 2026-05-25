@@ -8,7 +8,7 @@ authors = [
     { name = "Flet developer", email = "you@example.com" }
 ]
 dependencies = [
-    "flet>=0.85.1"
+    "flet>=0.85.1",
 ]
 
 [dependency-groups]
@@ -20,10 +20,12 @@ dev = [
 
 [tool.flet]
 desktop_flavor = "full"    # Change to "full" to use flet-audio and flet-video
-org = "com.mycompany"
-product = "flet"
-company = "Flet"
-copyright = "Copyright (C) 2023-2026 by Flet"
+org = "com.pixelreveal"
+product = "pixelreveal"
+company = "AnotherCyanFox"
 
 [tool.flet.app]
 path = "src"
+
+[tool.flet.android]
+split_per_abi = true
