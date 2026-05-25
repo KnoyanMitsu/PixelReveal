@@ -29,3 +29,7 @@ path = "src"
 
 [tool.flet.android]
 split_per_abi = true
+
+[tool.flet.android.permission]
+"android.permission.READ_EXTERNAL_STORAGE" = true
+"android.permission.WRITE_EXTERNAL_STORAGE" = true
